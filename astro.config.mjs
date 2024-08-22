@@ -25,11 +25,6 @@ export default defineConfig({
             delete: true,
             fields: [
               { name: 'title', widget: 'string', label: 'Post Title' },
-              {
-                name: 'publishDate',
-                widget: 'string',
-                label: 'Publish Date',
-              },
               { name: 'author', widget: 'string', label: 'Author Name', required: false },
               { name: 'authorURL', widget: 'string', label: 'Author URL', required: false },
               { name: 'description', widget: 'string', label: 'Description', required: false },

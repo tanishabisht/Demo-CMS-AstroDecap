@@ -1,6 +1,5 @@
 ---
 title: Lorem  et sanguine rutilos dixit
-publishDate: 22 Aug 2024
 author: Tanisha Bisht
 authorURL: https://www.linkedin.com/in/tanisha-bisht/
 description: nigro cornu genus duris linguae. Super hic deus ego adveniens nullumque Venerem equis aurem

@@ -5,12 +5,11 @@ export interface Props {
 	title: string;
 	author: string;
 	authorURL: string;
-	publishDate: string;
 	heroImage: string;
 	alt: string;
 }
 
-const { title, author, authorURL, publishDate, heroImage, alt } = Astro.props as Props;
+const { title, author, authorURL, heroImage, alt } = Astro.props as Props;
 ---
 
 <div class="layout">
@@ -18,7 +17,6 @@ const { title, author, authorURL, publishDate, heroImage, alt } = Astro.props as
 		<div>
 			<header>
 				{heroImage && <img width="720" height="420" class="hero-image" loading="lazy" src={heroImage} alt={alt} />}
-				<p class="publish-date">{publishDate}</p>
 				<h1 class="title">{title}</h1>
 				<Author name={author} href={authorURL} />
 			</header>
