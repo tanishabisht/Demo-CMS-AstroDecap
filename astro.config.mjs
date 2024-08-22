@@ -27,10 +27,7 @@ export default defineConfig({
               { name: 'title', widget: 'string', label: 'Post Title' },
               {
                 name: 'publishDate',
-                widget: 'datetime',
-                format: 'DD MMM YYYY',
-                date_format: 'DD MMM YYYY',
-                time_format: false,
+                widget: 'string',
                 label: 'Publish Date',
               },
               { name: 'author', widget: 'string', label: 'Author Name', required: false },
